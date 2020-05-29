@@ -1,11 +1,27 @@
+@import 'reset.css';
+
 * {
     box-sizing: border-box;
 }
 
-@import 'reset.css';
-
 .container {
     max-width: 100%;
+}
+
+.high-hierarchy {
+    background-color: #606060;
+
+}
+.low-hierarchy {
+    background-color: #D3D3D3;
+
+}
+.lowest-hierarchy {
+    background-color: #DCDCDC;
+}
+.medium-hierarchy {
+    background-color: #A9A9A9;
+
 }
 
 .navbar {
@@ -25,4 +41,43 @@
     background-color: #808080;
     border-radius: 10px;
     padding: 5px;
+}
+.top-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+}
+.top-articles > article {
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7;
+    padding: 10px;
+}
+.heading {
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+.background {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+}
+.articles {
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 40px;
+    line-height: 1.7;
+}
+.smashing-members {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.small {
+    width: 20vw;
+    height: 20vh;
 }
