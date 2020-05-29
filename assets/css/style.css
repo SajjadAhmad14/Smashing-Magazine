@@ -5,12 +5,18 @@
 @import 'reset.css';
 
 .navbar {
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
+    font-size: 30px;
+    background-color: #606060;
+    min-height: 50px;
 }
 
-.navbar .logo {
-    width: 150px;
-    height: 100px;
+.navbar a {
+    color: white;
+    text-decoration: none;
+    background-color: #808080;
+    border-radius: 10px;
 }
