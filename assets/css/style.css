@@ -1,1 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 @import 'reset.css';
+
+.navbar {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: 100px;
+}
