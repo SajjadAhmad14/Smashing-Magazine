@@ -1,83 +1,90 @@
-@import 'reset.css';
+@import "reset.css";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.container {
+/* .container { 
     max-width: 100%;
 }
-
+*/
 .high-hierarchy {
-    background-color: #606060;
-
+  background-color: #606060;
 }
 .low-hierarchy {
-    background-color: #D3D3D3;
-
+  background-color: #d3d3d3;
 }
 .lowest-hierarchy {
-    background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 .medium-hierarchy {
-    background-color: #A9A9A9;
-
+  background-color: #a9a9a9;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    background-color: #606060;
-    min-height: 50px;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  background-color: #606060;
+  min-height: 50px;
+  padding: 20px;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    background-color: #808080;
-    border-radius: 10px;
-    padding: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: #808080;
+  border-radius: 10px;
+  padding: 5px;
 }
 .top-articles {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
 }
 .top-articles > article {
-    height: 50vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.7;
-    padding: 10px;
+  height: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+  padding: 10px;
 }
 .heading {
-    font-weight: bold;
-    margin-bottom: 20px; 
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .background {
-    background-color: #fff;
-    border-radius: 5px;
-    color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
 }
 .articles {
-    height: fit-content;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    padding: 40px;
-    line-height: 1.7;
+  height: fit-content;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 40px;
+  line-height: 1.7;
 }
 .smashing-members {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 5px;
+  grid-gap: 5px;
 }
 .small {
-    width: 20vw;
-    height: 20vh;
+  display: grid;
+  /* padding: 30px; */
+}
+.big {
+  height: 50vh;
+  width: 80vw;
+  display: grid;
+  /* justify-content: center; */
+  align-content: center;
+  /* padding: 30px; */
 }
