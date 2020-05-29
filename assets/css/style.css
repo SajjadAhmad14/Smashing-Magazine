@@ -4,6 +4,10 @@
 
 @import 'reset.css';
 
+.container {
+    max-width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -12,6 +16,7 @@
     font-size: 30px;
     background-color: #606060;
     min-height: 50px;
+    padding: 20px;
 }
 
 .navbar a {
@@ -19,4 +24,5 @@
     text-decoration: none;
     background-color: #808080;
     border-radius: 10px;
+    padding: 5px;
 }
