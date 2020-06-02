@@ -1,8 +1,8 @@
 :root {
   /* Shades of Grey to Highlight hierarchy. */
-  --highest-hierarchy: ;
-  --medium-hierarchy: ;
-  --low-hierarchy: ;
+  --highest-hierarchy: rgb(53, 50, 50);
+  --medium-hierarchy: rgb(122, 122, 122);
+  --low-hierarchy: rgb(192, 192, 192);
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-container {
-  background-color: grey;
+  /* background-color: grey; */
   display: flex;
   justify-content: space-around;
   margin-bottom: 5px;
@@ -56,14 +56,12 @@ body {
   margin-bottom: 5px;
 }
 
-
-.items {
+/* .items {
   display: grid;
   align-items: center;
   justify-content: center;
   background-color: grey;
-  text-align
-}
+} */
 
 .items p {
   font-size: 40px;
@@ -81,23 +79,24 @@ body {
   background-color: rgb(85, 81, 81);
 }
 
-.article1 .item1 {
+/* .article1 .item1 {
   background-color: rgb(107, 106, 106);
 }
 
 .article1 .item3 {
   background-color: rgb(107, 106, 106);
-}
+} */
 
 
 .article2 {
-  background-color: rgb(192, 192, 192);
+  /* background-color: rgb(192, 192, 192); */
   margin-bottom: 5px;
   color: grey;
   display: grid;
   grid-template-columns: auto auto auto;
   font-size: 30px;
   min-height: 90vh;
+  padding-left: 30px;
 }
 
 .article2 a {
@@ -120,7 +119,7 @@ body {
   /* border: 3px solid green; */
   width: 100%;
   height: 700px;
-  background-color: silver;
+  /* background-color: silver; */
   margin-bottom: 5px;
 }
 
@@ -150,8 +149,9 @@ body {
 }
 
 .img-2 {
-  position: absolute;
-  right: 30px;
+  /* position: absolute;
+  right: 30px; */
+  margin-left: 200px;
   height: 600px;
   border-radius: 10px;
   width: 700px;
