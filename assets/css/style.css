@@ -2,9 +2,16 @@
   /* Shades of Grey to Highlight hierarchy. */
   --highest-hierarchy: rgb(53, 50, 50);
   --medium-hierarchy: rgb(122, 122, 122);
-  --low-hierarchy: rgb(192, 192, 192);
+  --low-hierarchy: rgb(224, 222, 222);
 }
 
+article:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.articles:hover  {
+  background-color: rgb(256, 256, 256);
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
@@ -56,12 +63,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* .items {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  background-color: grey;
-} */
 
 .items p {
   font-size: 40px;
@@ -78,14 +79,6 @@ body {
 .items a:hover {
   background-color: rgb(85, 81, 81);
 }
-
-/* .article1 .item1 {
-  background-color: rgb(107, 106, 106);
-}
-
-.article1 .item3 {
-  background-color: rgb(107, 106, 106);
-} */
 
 
 .article2 {
@@ -135,7 +128,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
 }
 
 #img-container h1 {
@@ -160,7 +152,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
 }
 
 .posters {
@@ -168,14 +159,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: silver;
   color: #000;
   font-size: 24px;
   margin-bottom: 5px;
 }
 
 .persons {
-  background-color: silver;
   color: #000;
   padding: 50px;
   margin-bottom: 5px;
@@ -184,8 +173,10 @@ body {
 .person-of-week {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  grid-column-gap: 0;
   width: 80%;
   margin: 0 auto;
+  height: 50vh;
 
 }
 
@@ -198,6 +189,11 @@ body {
   align-items: center;
   background-color: grey;
   transform: rotate(45deg);
+}
+.small-img:hover {
+  transform: rotate(0deg);
+  transition: transform 1s ease-in-out forwards;
+  cursor: pointer;
 }
 
 .related-posts {
@@ -236,14 +232,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #000;
-  background-color: silver;
   padding: 5% 10%;
-  border-top: 1px solid #000;
   margin-bottom: 5px;
 }
 
 .guide {
   color: black;
+  padding: 30px;
 }
 
 .guide:hover {
@@ -261,8 +256,5 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 3px solid blue;
   height: 300px;
-  background-color: grey;
-
 }
