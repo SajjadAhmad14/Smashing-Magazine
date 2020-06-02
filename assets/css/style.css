@@ -9,13 +9,15 @@ article:hover {
   opacity: 0.7;
   cursor: pointer;
 }
-.articles:hover  {
+
+.articles:hover {
   background-color: rgb(256, 256, 256);
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #ffffff;
+  color: #fff;
   box-sizing: border-box;
   width: 100%;
   padding: 0;
@@ -44,9 +46,24 @@ body {
 
 .nav-container a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   padding: 10px;
+}
+
+.items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.article2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.guide-links>li>a {
+  text-decoration: none;
+  color: #000;
 }
 
 .nav-container a:hover {
@@ -63,23 +80,15 @@ body {
   margin-bottom: 5px;
 }
 
-
 .items p {
   font-size: 40px;
   font-weight: 900px;
   text-align: center;
 }
 
-.items a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-
 .items a:hover {
   background-color: rgb(85, 81, 81);
 }
-
 
 .article2 {
   /* background-color: rgb(192, 192, 192); */
@@ -92,13 +101,8 @@ body {
   padding-left: 30px;
 }
 
-.article2 a {
-  text-decoration: none;
-  color: grey;
-}
-
 .article2 a:hover {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .article2 .articles {
@@ -112,6 +116,7 @@ body {
   /* border: 3px solid green; */
   width: 100%;
   height: 700px;
+
   /* background-color: silver; */
   margin-bottom: 5px;
 }
@@ -131,7 +136,7 @@ body {
 }
 
 #img-container h1 {
-  color: #ffffff;
+  color: #fff;
 }
 
 .article-img {
@@ -177,7 +182,6 @@ body {
   width: 80%;
   margin: 0 auto;
   height: 50vh;
-
 }
 
 .small-img {
@@ -190,6 +194,7 @@ body {
   background-color: grey;
   transform: rotate(45deg);
 }
+
 .small-img:hover {
   transform: rotate(0deg);
   transition: transform 1s ease-in-out forwards;
@@ -212,7 +217,6 @@ body {
   grid-template-columns: 1fr 2fr;
   width: fit-content;
   column-gap: 0;
-
 }
 
 .card-img {
@@ -243,12 +247,7 @@ body {
 
 .guide:hover {
   opacity: 70%;
-  background-color: #ffffff;
-}
-
-.guide-links>li>a {
-  text-decoration: none;
-  color: #000;
+  background-color: #fff;
 }
 
 .footer-container {
