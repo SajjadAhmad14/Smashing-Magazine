@@ -97,8 +97,15 @@ body {
   padding-right: 20px;
 }
 
-#img-container {
-  border: 3px solid red;
+.background-container {
+  /* border: 3px solid green; */
+  width: 100%;
+  height: 700px;
+  background-color: silver;
+}
+
+#img {
+  /* border: 3px solid red; */
   position: absolute;
   right: 30px;
   height: 600px;
@@ -114,4 +121,10 @@ body {
 
 #img-container h1 {
   color: #ffffff;
+}
+
+.article-img {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 3px solid red;
 }
