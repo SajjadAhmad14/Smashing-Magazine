@@ -15,7 +15,7 @@ This website is designed with pure css.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SajjadAhmad14/Smashing-Magazine/846df31ee7ab905de6e0624ffb87cb2310223fb4/index.html)
+[Live Demo Link](https://rawcdn.githack.com/SajjadAhmad14/Smashing-Magazine/74b130d638eba097a2f3a6a74f3aea2fb03dff65/index.html)
 
 
 
