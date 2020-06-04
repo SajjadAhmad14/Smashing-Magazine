@@ -1,0 +1,23 @@
+{
+  "name": "smashing-magazine",
+  "version": "1.0.0",
+  "description": "Heat map of Smashing Magazine website.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SajjadAhmad14/Smashing-Magazine.git"
+  },
+  "author": "Sajjad Ahmad, Kelyn Njeri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SajjadAhmad14/Smashing-Magazine/issues"
+  },
+  "homepage": "https://github.com/SajjadAhmad14/Smashing-Magazine#readme",
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
